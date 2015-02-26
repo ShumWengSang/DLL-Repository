@@ -1,0 +1,2 @@
+1 to activate TIE animation
++ and - to add/remove turbulence from noise.
