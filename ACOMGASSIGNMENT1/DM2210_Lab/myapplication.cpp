@@ -13,8 +13,6 @@ GLfloat blackAmbientLight[] = { 0.2, 0.2, 0.2 };
 
 GLfloat whiteDiffuseLight[] = { 0.8, 0.8, 0.8 };
 
-
-
 myApplication * myApplication::s_pInstance = NULL;
 
 // you can use constructor to initialise variables
@@ -71,70 +69,72 @@ void myApplication::drop()
 void myApplication::Draw3DEnvironment()
 {
 
-	glPushMatrix();
+	/*glPushMatrix();
 	glTranslatef(0,500,0);
 		glRotatef(skyangle,0,1,0);
 		GeneratePlane(128,300,2000,1,1);
-	glPopMatrix();
+	glPopMatrix();*/
 	
 
 
-	renderTerrain();
+	//renderTerrain();
 
 
-	glPushMatrix();
-	glTranslatef(258, 113, 0);
-	drawside(false);
-	glPopMatrix();
+	//glPushMatrix();
+	//glTranslatef(258, 113, 0);
+	//drawside(false);
+	//glPopMatrix();
 
-	glPushMatrix();
-	glTranslatef(-258, 113, 0);
-	glRotatef(180,0,1,0);
-	drawside(true);
-	glPopMatrix();
+	//glPushMatrix();
+	//glTranslatef(-258, 113, 0);
+	//glRotatef(180,0,1,0);
+	//drawside(true);
+	//glPopMatrix();
 
-	glPushMatrix();
-	glColor3f(0,0,1);
-	glTranslatef(0,113,-261);
-	glRotatef(180,0,1,0);
-	drawback(true);
-	glPopMatrix();
+	//glPushMatrix();
+	//glColor3f(0,0,1);
+	//glTranslatef(0,113,-261);
+	//glRotatef(180,0,1,0);
+	//drawback(true);
+	//glPopMatrix();
 
-	glDisable(GL_LIGHTING);
-	glPushMatrix();
-	glEnable(GL_BLEND);
-	glColor4f((float)30 / 255, (float)144 / 255, 1, 0.7);
-	//glScalef(520, 185, 0);
-	glTranslatef(-280, 200, 261);
-	glRotatef(90, 1, 0, 0);
-	glScalef(8.5, 1, 3);
+	//glDisable(GL_LIGHTING);
+	//glPushMatrix();
+	//glEnable(GL_BLEND);
+	//glColor4f((float)30 / 255, (float)144 / 255, 1, 0.7);
+	////glScalef(520, 185, 0);
+	//glTranslatef(-280, 200, 261);
+	//glRotatef(90, 1, 0, 0);
+	//glScalef(8.5, 1, 3);
 	
 	drawbluedoor();
-	glDisable(GL_BLEND);
-	glPopMatrix();
-	glEnable(GL_LIGHTING);
+	rendertable();
+	
+	//glDisable(GL_BLEND);
+	//glPopMatrix();
+	//glEnable(GL_LIGHTING);
 
-	drawroof();
+	//drawroof();
 
-	glDisable(GL_LIGHTING);
-	glPushMatrix();
-	rendernoise();
-	glPopMatrix();
-	glEnable(GL_LIGHTING);
+	//glDisable(GL_LIGHTING);
+	//glPushMatrix();
+	//rendernoise();
+	//glPopMatrix();
+//	glEnable(GL_LIGHTING);
 
-	drawTIE();
+	//drawTIE();
 
-	glPushMatrix();
+	/*glPushMatrix();
 		glTranslatef(0, 50, 0);
 		billboardBegin();
 		renderstormanimation();
 		billboardEnd();
-	glPopMatrix();
+	glPopMatrix();*/
 	//glDisable(GL_DEPTH_TEST);
 
-	glAccum(GL_MULT, 0.3f); // multiple renders blurring, degree specified
-	glAccum(GL_ACCUM, 0.9f); //blurs certain degree & add to presentcontent
-	glAccum(GL_RETURN, 1.0f); // transfer exactly to color buffer to be swap
+	//glAccum(GL_MULT, 0.3f); // multiple renders blurring, degree specified
+	//glAccum(GL_ACCUM, 0.9f); //blurs certain degree & add to presentcontent
+	//glAccum(GL_RETURN, 1.0f); // transfer exactly to color buffer to be swap
 
 }
 
@@ -153,9 +153,9 @@ void myApplication::drawbluedoor()
 		{
 			float nextBlue;
 			double nextB;
-			double inter = turbulence(k, i, t, 64);
+			double inter = turbulence(k, i, t, turbulencenum);
 
-			nextB = turbulence(k, i + 1, t, 64);
+			nextB = turbulence(k, i + 1, t, turbulencenum);
 
 			blue =   (inter / 2);
 
@@ -363,6 +363,7 @@ void myApplication::Update(void)
 	{
 		if (turbulencenum < 256)	//CLAMPING THE VALUE
 			turbulencenum += turbulencenum;
+		cout << turbulencenum<< endl;
 	}
 	if (myKeys['-'] == true)
 	{
@@ -379,19 +380,19 @@ void myApplication::Update(void)
 
 void myApplication::renderScene(void) {
 
-	static int frame = 0;
+	/*static int frame = 0;
 	static int lastTime = glutGet(GLUT_ELAPSED_TIME);
 	++frame; 
 	int time = glutGet(GLUT_ELAPSED_TIME);
 	dt = (time - lastTime) / 1000.f ;
-	lastTime = time;
+	lastTime = time;*/
 
 	// Clear the buffer
 	glDisable(GL_TEXTURE_2D);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glClearColor( 0.0f, 0.0f, 0.0f, 0.0f ); 
 
-	glLoadIdentity();
+	//glLoadIdentity();
 
 	theCamera->Update();
 
@@ -402,20 +403,20 @@ void myApplication::renderScene(void) {
 		timelastcall=timeGetTime();
 		Update();
 	}
-	glLightfv(GL_LIGHT0, GL_POSITION, LightPosition);
-	glLightf(GL_LIGHT0, GL_CONSTANT_ATTENUATION, 0.09);
-	glLightf(GL_LIGHT0, GL_LINEAR_ATTENUATION, 0.0);
-	glLightf(GL_LIGHT0, GL_QUADRATIC_ATTENUATION, 0.0010);
+	//glLightfv(GL_LIGHT0, GL_POSITION, LightPosition);
+	//glLightf(GL_LIGHT0, GL_CONSTANT_ATTENUATION, 0.09);
+	//glLightf(GL_LIGHT0, GL_LINEAR_ATTENUATION, 0.0);
+	//glLightf(GL_LIGHT0, GL_QUADRATIC_ATTENUATION, 0.0010);
 	Draw3DEnvironment();
 
-	glDisable(GL_LIGHTING);
+	/*glDisable(GL_LIGHTING);
 	glPushMatrix();
 	glColor3f(1, 1, 1);
 	glTranslatef(LightPosition[0], LightPosition[1], LightPosition[2]);
 	glutSolidSphere(1, 20, 20);
 	glPopMatrix();
 	f_moveTIE();
-	glEnable(GL_LIGHTING);
+	glEnable(GL_LIGHTING);*/
 	// Enable 2D text display and HUD
 	theCamera->SetHUD( true );
 
@@ -611,16 +612,16 @@ bool myApplication::Init(void)
 	}
 
 	glEnable(GL_DEPTH_TEST);
-	glEnable(GL_LIGHTING);
-	glEnable(GL_LIGHT0);
+	//glEnable(GL_LIGHTING);
+	//glEnable(GL_LIGHT0);
 
 	glEnable(GL_COLOR_MATERIAL);
 
 	
 
-	glLightfv(GL_LIGHT0, GL_SPECULAR, whiteSpecularLight);
-	glLightfv(GL_LIGHT0, GL_AMBIENT, blackAmbientLight);
-	glLightfv(GL_LIGHT0, GL_DIFFUSE, whiteDiffuseLight);
+	//glLightfv(GL_LIGHT0, GL_SPECULAR, whiteSpecularLight);
+	//glLightfv(GL_LIGHT0, GL_AMBIENT, blackAmbientLight);
+	//glLightfv(GL_LIGHT0, GL_DIFFUSE, whiteDiffuseLight);
 
 	//glLightf(GL_LIGHT0, GL_CONSTANT_ATTENUATION, 2000.0);
 	//glLightf(GL_LIGHT0, GL_LINEAR_ATTENUATION, 1.0);
