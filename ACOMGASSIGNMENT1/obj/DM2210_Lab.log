@@ -1,101 +1,106 @@
-﻿Build started 2/25/2015 11:05:14 AM.
-     1>Project "C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\DM2210_Lab\DM2210_Lab.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2/27/2015 12:02:45 PM.
+     1>Project "C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\DM2210_Lab\DM2210_Lab.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\obj\\" /Fd"C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\obj\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt myapplication.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\obj\\" /Fd"C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\obj\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp main.cpp myapplication.cpp
          myapplication.cpp
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(12): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(12): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(12): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(14): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(14): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(14): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(24): warning C4305: '=' : truncation from 'double' to 'float'
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(106): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(160): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(165): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(165): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(166): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(166): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(154): warning C4101: 'nextBlue' : unreferenced local variable
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(261): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(267): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(269): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(269): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(269): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(272): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(272): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(272): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(255): warning C4101: 'nextBlue' : unreferenced local variable
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(306): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(317): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(317): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(406): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(408): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(589): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(590): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(602): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(710): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(928): warning C4305: '-=' : truncation from 'double' to 'float'
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(933): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(987): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(987): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(992): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(992): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(997): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(997): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1002): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1002): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1150): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1160): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1162): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1166): warning C4552: '-' : operator has no effect; expected operator with side-effect
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1168): warning C4552: '+' : operator has no effect; expected operator with side-effect
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1170): warning C4552: '-' : operator has no effect; expected operator with side-effect
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1172): warning C4552: '+' : operator has no effect; expected operator with side-effect
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1174): warning C4552: '-' : operator has no effect; expected operator with side-effect
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1176): warning C4552: '+' : operator has no effect; expected operator with side-effect
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1189): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1206): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1223): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1132): warning C4101: 'min' : unreferenced local variable
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1132): warning C4101: 'max' : unreferenced local variable
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1337): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1473): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1529): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1529): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1530): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1530): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1531): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1531): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1532): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1532): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1545): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1545): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1546): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1546): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1547): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1547): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1548): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1548): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1571): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1571): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1572): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1572): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1573): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1573): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1574): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
-     1>c:\users\m308\downloads\132067d\acomgassignment1\dm2210_lab\myapplication.cpp(1574): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(12): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(12): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(12): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(14): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(14): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(14): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(24): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(106): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(160): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(165): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(165): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(166): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(166): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(154): warning C4101: 'nextBlue' : unreferenced local variable
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(261): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(267): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(269): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(269): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(269): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(272): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(272): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(272): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(255): warning C4101: 'nextBlue' : unreferenced local variable
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(306): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(317): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(317): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(406): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(408): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(589): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(590): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(602): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(710): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(928): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(933): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(987): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(987): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(992): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(992): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(997): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(997): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1002): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1002): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1150): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1160): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1162): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1166): warning C4552: '-' : operator has no effect; expected operator with side-effect
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1168): warning C4552: '+' : operator has no effect; expected operator with side-effect
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1170): warning C4552: '-' : operator has no effect; expected operator with side-effect
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1172): warning C4552: '+' : operator has no effect; expected operator with side-effect
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1174): warning C4552: '-' : operator has no effect; expected operator with side-effect
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1176): warning C4552: '+' : operator has no effect; expected operator with side-effect
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1189): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1206): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1223): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1132): warning C4101: 'min' : unreferenced local variable
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1132): warning C4101: 'max' : unreferenced local variable
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1337): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1473): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1529): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1529): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1530): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1530): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1531): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1531): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1532): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1532): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1545): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1545): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1546): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1546): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1547): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1547): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1548): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1548): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1571): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1571): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1572): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1572): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1573): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1573): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1574): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\m308\documents\github\dll-repository\acomgassignment1\dm2210_lab\myapplication.cpp(1574): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+         main.cpp
+         Camera.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\obj\DM2210_Lab.exe.embed.manifest.res" C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\obj\DM2210_Lab_manifest.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\bin\Debug\DM2210_Lab.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\lib freeglut.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\obj\DM2210_Lab.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\bin\Debug\DM2210_Lab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\bin\Debug\DM2210_Lab.lib" /MACHINE:X86 C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\obj\DM2210_Lab.exe.embed.manifest.res
-         C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\obj\Camera.obj
-         C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\obj\main.obj
-         C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\obj\myapplication.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\bin\Debug\DM2210_Lab.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\lib" freeglut.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\obj\DM2210_Lab.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\bin\Debug\DM2210_Lab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\bin\Debug\DM2210_Lab.lib" /MACHINE:X86 "C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\obj\DM2210_Lab.exe.embed.manifest.res"
+         "C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\obj\Camera.obj"
+         "C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\obj\main.obj"
+         "C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\obj\myapplication.obj"
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\obj\DM2210_Lab.exe.embed.manifest" /manifest C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\obj\DM2210_Lab.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\obj\DM2210_Lab.exe.embed.manifest" /manifest "C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\obj\DM2210_Lab.exe.intermediate.manifest"
        LinkEmbedManifest:
-         DM2210_Lab.vcxproj -> C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\bin\Debug\DM2210_Lab.exe
-     1>Done Building Project "C:\Users\m308\Downloads\132067D\ACOMGASSIGNMENT1\DM2210_Lab\DM2210_Lab.vcxproj" (Build target(s)).
+         DM2210_Lab.vcxproj -> C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\bin\Debug\DM2210_Lab.exe
+     1>Done Building Project "C:\Users\m308\Documents\GitHub\DLL-Repository\ACOMGASSIGNMENT1\DM2210_Lab\DM2210_Lab.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.84
+Time Elapsed 00:00:01.58
